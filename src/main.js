@@ -3,10 +3,10 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cubes = [
-  "./cubeDrawings/cube1.webp",
-  "./cubeDrawings/cube2.webp",
-  "./cubeDrawings/cube3.webp",
-  "./cubeDrawings/cube4.webp",
+  "./cubeDrawings/cadavre1.png",
+  "./cubeDrawings/cadavre2.jpg",
+  "./cubeDrawings/cadavre3.jpg",
+  "./cubeDrawings/Cadavre4.jpg",
 ];
 
 const trees = [
@@ -44,7 +44,7 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
-          <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
+          <h4 id="description">We are both prisoners and architects of our pasts. Memories can both shape us and be shaped by our minds. A systematic process of picking up the pieces, pulling information from where it can, and regurgitating it into a final image. Regardless of “objective truth” the memories form our conscious and in the same manner our conscious forms our memories. The answer to this dilemma cannot be found and so it is to our own discretion to decide which narrative to believe in, neither objective, instead partial truths.</h4>
         </div>
       </div>
 
