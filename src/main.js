@@ -34,10 +34,11 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Model 1
         <div class="three-model">
+          <a href="./houseDrawings/cadavre1.png" target="_blank">
           <img src="./houseDrawings/cadavre1.png" id="model1" alt="Model 11 Image" />
         </div>
         <div id="images-description">
-          <div id="images">
+          <div id="images"> 
   <a href="https://architecural-student-portfolio-1-hwcxrsgbb.vercel.app/cubeDrawings/cadavre1.png" target="_blank">
     <img src="./cubeDrawings/cadavre1.png" alt="cadavre1" />
   </a>
