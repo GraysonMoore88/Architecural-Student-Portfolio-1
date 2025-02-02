@@ -3,17 +3,17 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cubes = [
-  "./cubeDrawings/cadavre1.png",
-  "./cubeDrawings/cadavre2.jpg",
-  "./cubeDrawings/cadavre3.jpg",
+  "./cubeDrawings/Cadavre1.png",
+  "./cubeDrawings/Cadavre2.jpg",
+  "./cubeDrawings/Cadavre3.jpg",
   "./cubeDrawings/Cadavre4.jpg",
 ];
 
 const trees = [
-  "./treeDrawings/tree1.jpg",
-  "./treeDrawings/tree2.jpg",
-  "./treeDrawings/tree3.jpg",
-  "./treeDrawings/tree4.jpg",
+  "./treeDrawings/inter1.png",
+  "./treeDrawings/inter2.png",
+  "./treeDrawings/inter3.png",
+  "./treeDrawings/inter4.png",
 ];
 
 const houses = [
@@ -55,7 +55,7 @@ document.querySelector("#app").innerHTML = `
           <h4 id="description">We are both prisoners and architects of our pasts. Memories can both shape us and be shaped by our minds. A systematic process of picking up the pieces, pulling information from where it can, and regurgitating it into a final image. Regardless of “objective truth” the memories form our conscious and in the same manner our conscious forms our memories. The answer to this dilemma cannot be found and so it is to our own discretion to decide which narrative to believe in, neither objective, instead partial truths.</h4>
         </div>
       </div>
-${/* Model 2 ccommented out
+
       <div id="project-row">
       Model 2
         <div class="three-model">
@@ -70,11 +70,11 @@ ${/* Model 2 ccommented out
               )
               .join("")}
           </div>
-          <h4 id="description">A 3D tree model is a geometric representation of a tree, featuring a trunk, branches, and foliage. The trunk is typically cylindrical, with textured bark, while the branches extend outward to support leaves or a canopy. It may include roots or flowers for added detail.</h4>
+          <h4 id="description">Interoperability refers to the ability of different systems, devices, or software applications to work together and exchange information seamlessly. It ensures that diverse technologies can collaborate effectively, enabling users to access, share, and use data across platforms without compatibility issues.</h4>
         </div>
       </div>
-*/ ""}
-${/* Model 3 commented out
+
+
       <div id="project-row">
       Model 3
         <div class="three-model">
@@ -91,7 +91,7 @@ ${/* Model 3 commented out
           <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
         </div>
       </div>
-*/ ""}
+
     </section>
 
     <ul id="footer-items">
@@ -109,5 +109,5 @@ ${/* Model 3 commented out
 
 // Create three.js scenes for each
 // createThreeScene("#model1", "/3DModels/project1/cube.obj");
-// createThreeScene("#model2", "/3DModels/project2/tree.obj");
+createThreeScene("#model2", "/3DModels/project2/inter.obj");
 // createThreeScene("#model3", "/3DModels/project3/cottage.obj");
